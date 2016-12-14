@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
 # Device settings
 ADDITIONAL_BUILD_PROPERTIES += \
     ro.sf.lcd_density=240 \
-    ro.sf.hwrotation=270 \
     ro.sf.hwrotation=90 \
     persist.hwc.mirroring.region=0:0:1920:1200 \
     persist.hwc.mirroring.transform=2 \
