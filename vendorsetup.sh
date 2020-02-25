@@ -15,5 +15,4 @@
 #
 
 add_lunch_combo full_jem-eng
-add_lunch_combo cm_jem-userdebug
-
+add_lunch_combo lineage_jem-userdebug

@@ -17,12 +17,10 @@ $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration for bowser
 $(call inherit-product, device/amazon/jem/full_jem.mk)
-$(call inherit-product, device/amazon/bowser-common/cm.mk)
+$(call inherit-product, device/amazon/bowser-common/lineage.mk)
 
-#TARGET_SCREEN_WIDTH := 1920
-TARGET_SCREEN_WIDTH := 480
+TARGET_SCREEN_WIDTH := 1920
 TARGET_SCREEN_HEIGHT := 1200
 
-PRODUCT_NAME := cm_jem
+PRODUCT_NAME := lineage_jem
 PRODUCT_RELEASE_NAME := KindleFireHD
-
